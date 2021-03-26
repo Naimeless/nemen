@@ -1,0 +1,201 @@
+@font-face{
+    font-family: Pompadur;
+    src: url(fonts/EB_Garamond/EBGaramond-Regular.ttf);
+}
+
+body{
+    font-family: "Pompadur", sans-serif;
+    background-color: #151522;
+}
+
+.main-header{
+    width: auto;
+    height: 114px;
+    background-color: #151522;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-main{
+    position: absolute;
+    width: 1116px;
+    height: 621px;
+    left: 20px;
+    top: 100px;
+    background-color: #151522;
+}
+
+.head1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 510px;
+    height: 60px;
+    left: 416px;
+    top: 20px;
+}
+
+.head1 div:nth-child(1){
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3D424C;
+    border-radius: 5px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.head1 div:nth-child(2){
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3D424C;
+    border-radius: 5px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.head1 div:nth-child(3){
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3D424C;
+    border-radius: 5px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.head1 div:nth-child(4){
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3D424C;
+    border-radius: 5px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.head1 div:nth-child(5){
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3D424C;
+    border-radius: 5px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.head1 div:nth-child(6){
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 13px;
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3D424C;
+    border-radius: 5px;
+    Width: 60px;
+    Height: 60px;
+}
+
+.img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 127%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 2px solid rgba(228, 228, 228, 0.6);
+    box-sizing: border-box;
+    border-radius: 300px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 212px;
+    height: 220px;
+    top: 28px;
+    background-color: #151522;
+}
+
+.menu a {
+    padding: 6px 8px 16px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+}
+
+.menu a:hover {
+    border-radius: 18px;
+    background: #3D424C; /* Цвет фона под ссылкой */
+}
+
+.main {
+    position: absolute;
+    border-radius: 3%;
+    width: 868px;
+    height: 598px;
+    left: 236px;
+    top: 11px;
+    background-color: #2E3239;
+}
+
+.f{
+    color: rgb(207, 207, 207);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    position: static;
+    width: 154px;
+    height: 28px;
+    margin-left: 30px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
